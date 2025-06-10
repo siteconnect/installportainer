@@ -44,18 +44,29 @@ check_system_requirements() {
     return 0
 }
 
-# Logo animado
-show_animated_logo() {
-    clear
-    echo -e "${GREEN}"
-    echo -e "  _____        _____ _  __  _________     _______  ______ ____   ____ _______ "
-    echo -e " |  __ \ /\   / ____| |/ / |__   __\ \   / /  __ \|  ____|  _ \ / __ \__   __|"
-    echo -e " | |__) /  \ | |    | ' /     | |   \ \_/ /| |__) | |__  | |_) | |  | | | |   "
-    echo -e " |  ___/ /\ \| |    |  <      | |    \   / |  ___/|  __| |  _ <| |  | | | |   "
-    echo -e " | |  / ____ \ |____| . \     | |     | |  | |    | |____| |_) | |__| | | |   "
-    echo -e " |_| /_/    \_\_____|_|\_\    |_|     |_|  |_|    |______|____/ \____/  |_|   "
-    echo -e "${NC}"
-    sleep 1
+# Função para imprimir um banner que permanece na tela
+function print_banner {
+  clear
+  echo -e "${GREEN}"
+  echo "============================================="
+  echo "         ATUALIZAÇÃO MULTIZAP PLUS            "
+  echo "============================================="
+  echo -e "${NC}"
+
+  # Exibe o banner de ASCII Art
+printf ${YELLOW}"                        SISTEMA PARA MÚLTIPLOS ATENDIMENTOS \n" 
+printf ${GREEN}"\n" ███╗   ███╗ ██╗   ██╗  ██╗     ████████╗  ██╗   ██████████╗   █████╗    ██████╗  \n" 
+printf ${GREEN}"\n" ████╗ ████║ ██║   ██║  ██║     ╚══██╔══╝  ██║    ╚═══ ██╔╝   ██╔══██╗   ██╔══ ██╗ \n"
+printf ${GREEN}"\n" ██╔████╔██║ ██║   ██║  ██║        ██║     ██║      ██║       ████████   ███████╔╝   \n"
+printf ${GREEN}"\n" ██║╚██╔╝██║ ██║   ██║  ██║        ██║     ██║    ██║         ██╔══ ██║  ██ ╔═══╝   \n" 
+printf ${GREEN}"\n" ██║ ╚═╝ ██║ ╚██████╔╝  ███████╗   ██║     ██║   █████████    ██║   ██║  ██║       \n"
+printf ${GREEN}"\n" ╚═╝     ╚═╝ ╚═════╝    ╚══════╝   ╚═╝     ╚═╝  ╚   ═   ╝     ╚═╝   ╚═╝  ╚═╝     \n"  
+printf "\n" 
+                                                                                                                                                         
+printf "            \033[1;33m        ";
+printf "${NC}";
+
+printf "\n"
 }
 
 # Função para mostrar um banner colorido
