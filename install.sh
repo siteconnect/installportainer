@@ -52,21 +52,17 @@ function print_banner {
   echo "         ATUALIZAÇÃO MULTIZAP PLUS            "
   echo "============================================="
   echo -e "${NC}"
-
-  # Exibe o banner de ASCII Art
-printf ${YELLOW}"                        SISTEMA PARA MÚLTIPLOS ATENDIMENTOS \n" 
-printf ${GREEN}"\n" ███╗   ███╗ ██╗   ██╗  ██╗     ████████╗  ██╗   ██████████╗   █████╗    ██████╗  \n" 
-printf ${GREEN}"\n" ████╗ ████║ ██║   ██║  ██║     ╚══██╔══╝  ██║    ╚═══ ██╔╝   ██╔══██╗   ██╔══ ██╗ \n"
-printf ${GREEN}"\n" ██╔████╔██║ ██║   ██║  ██║        ██║     ██║      ██║       ████████   ███████╔╝   \n"
-printf ${GREEN}"\n" ██║╚██╔╝██║ ██║   ██║  ██║        ██║     ██║    ██║         ██╔══ ██║  ██ ╔═══╝   \n" 
-printf ${GREEN}"\n" ██║ ╚═╝ ██║ ╚██████╔╝  ███████╗   ██║     ██║   █████████    ██║   ██║  ██║       \n"
-printf ${GREEN}"\n" ╚═╝     ╚═╝ ╚═════╝    ╚══════╝   ╚═╝     ╚═╝  ╚   ═   ╝     ╚═╝   ╚═╝  ╚═╝     \n"  
-printf "\n" 
-                                                                                                                                                         
-printf "            \033[1;33m        ";
-printf "${NC}";
-
-printf "\n"
+}
+# Logo animado simples
+show_animated_logo() {
+ echo -e "${YELLOW}"          "SISTEMA PARA MÚLTIPLOS ATENDIMENTOS " 
+ echo " ███╗   ███╗ ██╗   ██╗  ██╗     ████████╗  ██╗   ██████████╗   █████╗    ██████╗  " 
+ echo " ████╗ ████║ ██║   ██║  ██║     ╚══██╔══╝  ██║    ╚═══ ██╔╝   ██╔══██╗   ██╔══ ██╗ "
+ echo " ██╔████╔██║ ██║   ██║  ██║        ██║     ██║      ██║       ████████   ███████╔╝   "
+ echo " ██║╚██╔╝██║ ██║   ██║  ██║        ██║     ██║    ██║         ██╔══ ██║  ██ ╔═══╝   " 
+ echo " ██║ ╚═╝ ██║ ╚██████╔╝  ███████╗   ██║     ██║   █████████    ██║   ██║  ██║       "
+ echo " ╚═╝     ╚═╝ ╚═════╝    ╚══════╝   ╚═╝     ╚═╝  ╚   ═   ╝     ╚═╝   ╚═╝  ╚═╝     "  
+ echo -e "${NC}"
 }
 
 # Função para mostrar um banner colorido
