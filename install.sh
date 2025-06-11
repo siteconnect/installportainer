@@ -54,6 +54,7 @@ function print_banner {
   echo -e "${NC}"
 }
 # Logo animado simples
+
 show_animated_logo() {
  echo -e "${YELLOW}"          "SISTEMA PARA MÚLTIPLOS ATENDIMENTOS " 
  echo " ███╗   ███╗ ██╗   ██╗  ██╗     ████████╗  ██╗   ██████████╗   █████╗    ██████╗  " 
