@@ -244,7 +244,7 @@ EOL
     echo -e "${GREEN}================================${NC}"
     echo ""
     echo -e "${BLUE}💡 Dica: Aguarde alguns minutos para que os certificados SSL sejam gerados${NC}"
-    echo -e "${GREEN}🌟 Visite: https://packtypebot.com.br${NC}"
+    echo -e "${GREEN}🌟 Visite: https://portaldozap.com.br${NC}"
 else
     echo -e "${RED}❌ Instalação cancelada. Por favor, inicie novamente.${NC}"
     exit 0
