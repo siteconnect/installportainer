@@ -49,7 +49,7 @@ function print_banner {
   clear
   echo -e "${GREEN}"
   echo "============================================="
-  echo "         ATUALIZAÇÃO MULTIZAP PLUS            "
+  echo "           PORTALDOZAP.COM.BR                "
   echo "============================================="
   echo -e "${NC}"
 }
